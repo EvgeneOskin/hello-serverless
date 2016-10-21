@@ -48,8 +48,9 @@ functions:
 
     events:
       - http:
-          path: users/create
+          path: version/{version_number}
           method: get
+          cors: true
 
 # you can add CloudFormation resource templates here
 #resources:
